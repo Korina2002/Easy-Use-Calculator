@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+
+    <style>
+        #calculate {
+            background-color: darkgrey;
+            width: 200px;
+            height : 50px;
+            text-align: center;
+            font-size: larger;
+            text-align: center;
+            border: 1px;;
+            font: italic;
+        }
+        #calculate:hover {
+            cursor: pointer;
+        }
+        #result{
+            font: italic;
+        }
+        span{
+            font-weight: bold;
+        }
+        input {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" >
+    <select>
+        <option value="+" >+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type = "text">
+    <p id="calculate">calculate...</p>
+    <p>Result:  <span></span></p>
+    <script src="calculator.js" > </script>
+
+</body>
+
+</html>
